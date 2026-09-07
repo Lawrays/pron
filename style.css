@@ -181,6 +181,7 @@
 
     nav ul li {
       margin-left: 20px;
+      overflow: auto;
     }
 
     nav ul li a {
@@ -188,6 +189,14 @@
       text-decoration: none;
       font-weight: bold;
       font-size: 1.5rem;
+    }
+
+    nav ul li::-webkit-scrollbar {
+      display: none;
+    }
+    nav ul li {
+      -ms-overflow-style: none;  
+      scrollbar-width: none;     
     }
 
     /* Mobile menu button */
@@ -236,12 +245,14 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       text-align: center;
       padding: 10px;
+      
     }
 
     .book img {
       width: 100%;
       height: auto;
       border-radius: 4px;
+      
     }
 
     .book-title {
