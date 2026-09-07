@@ -56,6 +56,10 @@ body {
   margin-bottom: 24px;
 }
 
+.card li {
+    font-size: large;
+}
+
 
 @media (width <= 740px) {
   .card {
