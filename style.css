@@ -113,6 +113,7 @@
       color: white;
       margin-top: 10px;
     }
+
     h3 {
       text-align: center;
       font-size: 1.5rem;
@@ -176,7 +177,7 @@
       display: flex;
       margin: 0;
       padding: 0;
-      width: 100%;
+      
     }
 
     nav ul li {
@@ -198,6 +199,13 @@
       -ms-overflow-style: none;  
       scrollbar-width: none;     
     }
+
+  @media only screen and (max-width: 600px) {
+  nav ul li a {
+  font-size: 18px;
+  align-items: center;
+  }}
+
 
     /* Mobile menu button */
     .menu-toggle {
@@ -271,6 +279,15 @@
       scrollbar-width: none;     
     }
 
+  /* Styles for screens that are 600px wide or less */
+  @media only screen and (max-width: 600px) {
+  .book,img {
+  background-color: lightgreen;
+  height: 50px;
+  width: 60px;
+  }}
+
+
     
     /* Card container for Board members */
     .board-container {
@@ -316,6 +333,13 @@
       -ms-overflow-style: none;  /* IE and Edge */
       scrollbar-width: none;     /* Firefox */
     }
+
+  @media only screen and (max-width: 600px) {
+  .board,img {
+  background-color: lightgreen;
+  height: 50px;
+  width: 50px;
+  }}
 
 
     .blue-text {
