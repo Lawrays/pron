@@ -36,10 +36,12 @@
       display: flex;
       margin: 0;
       padding: 0;
+      width: 100%;
     }
 
     nav ul li {
-      margin-left: 20px;
+      margin-left: 10px;
+      overflow: auto;
     }
 
     nav ul li a {
@@ -54,6 +56,13 @@
       display: none;
       font-size: 1.5rem;
       cursor: pointer;
+    }
+     nav ul li::-webkit-scrollbar {
+      display: none;
+    }
+    nav ul li {
+      -ms-overflow-style: none;  
+      scrollbar-width: none;     
     }
 
     /* Responsive styles 

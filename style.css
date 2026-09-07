@@ -180,7 +180,7 @@
     }
 
     nav ul li {
-      margin-left: 20px;
+      margin-left: 10px;
       overflow: auto;
     }
 
@@ -235,7 +235,9 @@
       gap: 20px;
       padding: 10px;
       scroll-behavior: smooth;
+      width: 100%;
     }
+    
 
     .book {
       flex: 0 0 auto;
@@ -245,14 +247,12 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       text-align: center;
       padding: 10px;
-      
     }
 
     .book img {
       width: 100%;
       height: auto;
       border-radius: 4px;
-      
     }
 
     .book-title {
