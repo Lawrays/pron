@@ -1,0 +1,118 @@
+ body {
+      font-family: Georgia, "Times New Roman", Times, serif;;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('assets/PRO Logo.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: repeat;
+     
+    }
+
+
+    .logo {
+      display: inline-block;
+      height: 250px;
+      width: 100%;
+      align-items: center;
+      border-radius: 40px;
+    }
+
+    nav {
+      background: #e9e6e6;
+      color: black;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+   
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: blue;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    /* Mobile menu button */
+    .menu-toggle {
+      display: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    /* Responsive styles 
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+        flex-direction: column;
+        background: #444;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+      }
+        
+
+      nav ul.active {
+        display: flex;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+    */
+
+    .blue-text {
+      color: blue;
+      text-align: center;
+      background-color: #f8f9fa;   /* background color */
+      background-size: cover;
+    }
+
+    .bold-text {
+      font-weight: bold;
+      
+    }
+
+    p {
+      text-align: justify;
+      text-justify: inter-word;
+      font-size: 1.5rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      background-color: #f8f9fa;   /* background color */
+      padding: 10px;
+    }   
+
+    ul li {
+      list-style-type: disc;
+      background-color: #f8f9fa;   /* background color */
+      padding: 10px;
+      list-style: none;
+      font-size: 1.5rem;
+      line-height: 1.6;
+      
+    }
+    ol li {
+      background-color: #f8f9fa;   /* background color */
+      padding: 10px;
+      font-size: 1.5rem;
+      line-height: 1.6;
+      
+    }
