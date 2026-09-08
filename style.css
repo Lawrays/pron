@@ -395,3 +395,16 @@
     .marquee span {
       animation-duration: 15s; /* Adjust speed here */
     }
+
+    footer {
+      text-align: center; 
+      padding: 3px; 
+      background-color: blue;
+      color: whitesmoke;
+    }
+
+  @media only screen and (max-width: 600px) {
+  #ft {
+  width: 100%;
+  font-size: 15px;
+  }}
