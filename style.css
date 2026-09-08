@@ -362,6 +362,36 @@
 
     #cac img:hover {
       transform: scale(3.00);
-      cursor: pointer;
-      
+      cursor: pointer; 
+    }
+
+     .marquee {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      box-sizing: border-box;
+      background-color: red;
+    }
+
+    .marquee span {
+      display: inline-block;
+      padding-left: 100%; /* Start off-screen */
+      animation: scroll-text linear infinite;
+      font-size: 1.5rem;
+      text-decoration: wavy;
+      color: antiquewhite;
+    }
+
+    @keyframes scroll-text {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    /* Control speed based on text length */
+    .marquee span {
+      animation-duration: 15s; /* Adjust speed here */
     }
